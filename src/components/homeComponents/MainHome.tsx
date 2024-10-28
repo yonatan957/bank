@@ -1,7 +1,17 @@
-import React from 'react'
+import Details from './Details'
+import ClientModel from '../../models/clientModel'
 
-export default function HomeainHome() {
+interface props{
+  client:ClientModel
+}
+
+export default function HomeainHome({client}:props) {
   return (
-    <div>Home</div>
+    <div className='home page'>
+      <h1>Home</h1>
+      <hr style={{width:"80%"}}/>
+      <br />
+      <Details client={client}/>
+    </div>
   )
 }

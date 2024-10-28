@@ -2,6 +2,6 @@ import React from 'react'
 
 export default function MainCredit() {
   return (
-    <div>credit</div>
+    <div className='credit page'>credit</div>
   )
 }

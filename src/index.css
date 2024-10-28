@@ -36,3 +36,13 @@
   padding: 5%;
   width: 110%;
 }
+.page{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.Details{
+  gap: 10px;
+}
