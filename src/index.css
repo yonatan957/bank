@@ -46,3 +46,14 @@
 .Details{
   gap: 10px;
 }
+
+.list{
+  gap: 20px;
+}
+
+.item{
+  padding: 5px;
+  width: 80%;
+  border-radius: 10px;
+  box-shadow: 1px 1px 2px rgb(107, 95, 95);
+}

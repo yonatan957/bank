@@ -1,5 +1,14 @@
-export default function ListCredit() {
+import ClientModel from "../../models/clientModel"
+import CreditItem from "./CreditItem"
+
+interface props{
+  client:ClientModel
+}
+
+export default function ListCredit({client}:props) {
   return (
-    <div>ListCredit</div>
+    <div className="page list">
+      {client.creditDebits.map((creditDebit)=><CreditItem credit={creditDebit}/>)}
+    </div>
   )
 }
