@@ -5,9 +5,9 @@ export default class TransferModel{
     public created_at:Date;
     constructor(
         public account:number,
-        public conductorId:string,
-        public receiverId:string,
-        public amount:number
+        public secondClientId:string,
+        public amount:number,
+        public is_it_acceptance:boolean
     ){
         this.transferId = v4()
         this.created_at = new Date()
