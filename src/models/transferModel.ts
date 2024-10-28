@@ -13,15 +13,3 @@ export default class TransferModel{
         this.created_at = new Date()
     }
 }
-
-// export default class TransferModel{
-//     public id:string
-//     constructor(
-//         public name:string,
-//         public branch:number,
-//         public accountNumber:number,
-//         public balance:number,
-//     ){
-//         this.id = v4()
-//     }
-// }
