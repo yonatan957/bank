@@ -7,7 +7,7 @@ interface props{
 export default function ListTransfer({client}:props) {
   return (
     <div className="page list">
-      {client.transfers.map((transfer)=><TransferItem transfer={transfer} clientId={client.id}/>)}
+      {client.transfers.map((transfer)=><TransferItem transfer={transfer}/>)}
     </div>
   )
 }

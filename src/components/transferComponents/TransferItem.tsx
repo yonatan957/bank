@@ -1,11 +1,10 @@
 import TransferModel from "../../models/transferModel"
 
 interface props{
-    transfer:TransferModel,
-    clientId:string
+    transfer:TransferModel
 }
 
-export default function TransferItem({transfer, clientId}:props):JSX.Element {
+export default function TransferItem({transfer}:props):JSX.Element {
   return (
     <div className="page transferItem">
     <div className="page item">
