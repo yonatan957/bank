@@ -8,7 +8,7 @@ interface props{
 export default function ListCredit({client}:props) {
   return (
     <div className="page list">
-      {client.creditDebits.map((creditDebit)=><CreditItem credit={creditDebit}/>)}
+      {client.creditDebits.map((creditDebit)=><CreditItem key={creditDebit.creditDebitId} credit={creditDebit}/>)}
     </div>
   )
 }
